@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ITLearn suite]" verbose="2">
+  <test thread-count="5" name="Book A Demo Test(failed)" verbose="2">
+    <classes>
+      <class name="testCases.BookDemoForManualTestCourse">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="tearDown"/>
+          <include name="bookDemo"/>
+        </methods>
+      </class> <!-- testCases.BookDemoForManualTestCourse -->
+    </classes>
+  </test> <!-- Book A Demo Test(failed) -->
+</suite> <!-- Failed suite [ITLearn suite] -->

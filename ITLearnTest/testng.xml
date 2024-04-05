@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="ITLearn suite" verbose="2">
+	<test name="Login Page Test">
+		<classes>
+			<class name="testCases.LoginTestCase"></class>
+		</classes>
+	</test>
+	<test name="Book A Demo Test">
+		<classes>
+			<class name="testCases.BookDemoForManualTestCourse"></class>
+		</classes>
+	</test>
+
+</suite>
